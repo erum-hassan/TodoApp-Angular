@@ -1,27 +1,71 @@
-# Todoappfinal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+# Todo App - Angular
 
-## Development server
+This is Todo App in Angular made for Educational Purpose only.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Authors
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [@Erum-Hassan](https://github.com/erum-hassan)
 
-## Build
+  
+## Badges
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-## Running unit tests
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  
+## Features
 
-## Running end-to-end tests
+- Add Todo
+- Form Validation 
+- Empty Todo Indication
+- Scroll bar on overflow todos
+- Todo checked functionality
+- Delete Todo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+  
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+  
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Install Angular 
+
+```bash
+  npm install angular@latest
+```
+
+Start the server
+
+```bash
+  ng serve --open
+```
+
+  

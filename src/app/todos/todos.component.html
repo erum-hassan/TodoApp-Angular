@@ -1,0 +1,40 @@
+<div class="container">
+ 
+    <div class="top-box">
+        <h1 class="heading">TodoApp</h1>
+    </div>
+
+       <form [formGroup] = "todoform">
+        <div class="search-box">
+
+            <input  formControlName = "todovalid" [(ngModel)]="currentitem" type="text" class="input" placeholder="What you have to do today!" > 
+            <button [disabled] = "!todoform.invalid"class="btn-add" (click)="Addtodo()">ADD</button>  
+        </div>
+       
+           
+    </form>
+        <div class="main-todo">
+            
+            <div  class="todos" *ngIf="this.todos.length==0; else elseblock" >
+                <h2 class="no-todos">No Todos to display</h2>
+                </div>
+                <ng-template #elseblock >
+                    
+            
+                    <div class="todos">
+                        <div class="todo-main-box"      *ngFor="let todo of todos; let i = index" [ngClass]="{'strike':todo.active}">
+                            <input type="checkbox" (click)="checkedbox(todo)" class="checkbox-design">
+                            <p class="todo-design">{{todo.content}}</p> 
+                            <button class="cross-btn"       (click)="remove(i)">X</button>
+                          </div>
+                    </div>
+                   
+                </ng-template>
+                
+        </div>
+    
+    
+    
+    
+    
+</div>
